@@ -1,0 +1,26 @@
+{
+  "name": "webscrapebuya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-retry": "^3.1.8",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "puppeteer": "^3.0.4",
+    "puppeteer-cluster": "^0.20.0",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin": "^3.1.4",
+    "puppeteer-extra-plugin-adblocker": "^2.11.3",
+    "puppeteer-extra-plugin-stealth": "^2.4.9",
+    "request": "^2.88.2"
+  }
+}
